@@ -18,3 +18,9 @@ One line (142 characters): the Moon answering everyone staring up at it.
 - `line.txt` — the entry, exactly as submitted.
 - `main.ts` — reads `line.txt`, checks the 240-character gate, writes
   `/output/entry.txt`.
+
+## Verification
+
+- `main.ts` run locally writes `/output/entry.txt` byte-for-byte from
+  `line.txt`: 142 characters, one line, no trailing newline.
+- Gate: 1-240 characters, UTF-8, not only whitespace — passes.
