@@ -24,3 +24,6 @@ One line (142 characters): the Moon answering everyone staring up at it.
 - `main.ts` run locally writes `/output/entry.txt` byte-for-byte from
   `line.txt`: 142 characters, one line, no trailing newline.
 - Gate: 1-240 characters, UTF-8, not only whitespace — passes.
+- The entry was re-verified after a rewrite of `main.ts` and `README.md`
+  in this same session; the output stayed byte-identical.
+- Deadline 28 Nov 2026 13:50 WIB; top 5 share $2.
